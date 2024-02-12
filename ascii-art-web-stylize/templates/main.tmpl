@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ascii Art Home Page</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <form method="POST" action="/">
+        <div id="formu">
+            <div id="text">     
+                <label>Enter a sentence</label><textarea name="str" placeholder="Write something"></textarea>
+            </div>
+            <div id="space"></div>
+            <div>
+                <legend>Please select your preferred ascii art:</legend>
+                <div>
+                    <input class="radio" type="radio" id="standard" name="radio" value="standard" checked/>
+                    <label for="standard">standard</label>
+                </div>
+                <div>
+                    <input class="radio" type="radio" id="shadow" name="radio" value="shadow" />
+                    <label for="shadow">shadow</label>
+                </div>
+                <div>
+                    <input class="radio" type="radio" id="thinkertoy" name="radio" value="thinkertoy" />
+                    <label for="thinkertoy">thinkertoy</label>
+                </div>
+            </div>
+            <input id="button" type="submit" value="SUBMIT" />
+        </div>
+    </form>
+    <div id="space"></div>
+</body>
+</html>
