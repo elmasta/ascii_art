@@ -9,12 +9,12 @@ This programme take an option and a sequence of character as an argument and pri
 # Needed files
 "main.go", "standard.txt", "shadow.txt" and "thinkertoy.txt" are needed in the "main" folder.
 
-# Launching the proramme
+# Launching the program
 Usage: go run . [STRING] [BANNER]
 
 EX: go run . something standard
 
-To launch the programme, you need to launch main.go with at least one argument as shawn in this example:
+To launch the program, you need to launch main.go with at least one argument as shawn in this example:
 go run main.go thisisatest
 
 # Extra features
