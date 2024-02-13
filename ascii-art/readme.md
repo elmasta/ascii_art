@@ -9,7 +9,7 @@ This programme take a sequence of character as an argument and print its ascii a
 # Needed files
 "main.go" and "standard.txt" are both needed in the "main" folder. This programme doesn't work with files other than "standard.txt"
 
-# Launching the prgoramme
+# Launching the program
 To launch the programme, you need to launch main.go with an argument as shawn in this example:
 go run main.go thisisatest
 This programme doesn't except more than one argument. 
