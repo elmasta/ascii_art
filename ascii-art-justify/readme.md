@@ -9,7 +9,7 @@ This programme take an option and a sequence of character as an argument and pri
 # Needed files
 "main.go", "standard.txt", "shadow.txt" and "thinkertoy.txt" are needed in the "main" folder.
 
-# Launching the proramme
+# Launching the program
 Usage: go run . [OPTION] [STRING] [BANNER]
 
 Example: go run . --align=right something standard
